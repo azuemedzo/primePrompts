@@ -1,0 +1,18 @@
+header{
+    with: 100%;
+    height: 75px;
+    border-bottom: 2px solid rgb (var(--primery-color) ,0,2);
+}
+
+<header class= "header">
+<nav class="header__nav">
+ <div class="nav__logo">
+ <img src="/assete/logo.svg" alt="logo"class="nav__logo-imag">
+ <h3 class="nav__logo-tilte">primeprompts</h3>
+</div>  
+<div class="nav__auth">
+ <button class=nav__auth-button.nav__auth-button--signin>connexion</button>
+ <button class=nav__auth-button.nav__auth-button--signup>Essayer PrimePrompts</button>
+</div>
+</nav>
+</header>
